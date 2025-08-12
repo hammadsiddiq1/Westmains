@@ -1,42 +1,99 @@
 .navbar {
-  background-color: #fff;
-  border-bottom: 1px solid #ddd;
+  width: 100%;
 }
 
-.navbar-container {
+.logo-contact {
   display: flex;
   justify-content: space-between;
+  width: 100%;
   align-items: center;
-  margin: 0 auto;
-  padding: 1rem 2rem;
 }
 
-.navbar-logo {
-  font-size: 1.5rem;
+.contact-buttons {
+  display: flex;
+  gap: 3rem;
+  margin-right: 1rem;
+}
+
+.logo {
+  font-size: 3rem;
   font-weight: bold;
-  color: #222;
+  margin: 0;
+  padding-left: 2rem;
+  padding-right: 6rem;
+  color: white;
+  background-color: grey;
+
+  clip-path: polygon(0 0, 100% 0, calc(100% - 80px) 100%, 0 100%);
+}
+
+.navbar-banner {
+  width: 100%;
+  background-color: #daddd8;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar-links {
   list-style-type: none;
+  width: 80%;
   display: flex;
-  gap: 0;
-  margin: 0;
+  justify-content: space-between;
+  /* border: 1px solid red; */
   padding: 0;
 }
 
-.navbar-item a {
-  padding: 0 1rem;
-  border-left: 1px solid #ddd;
+.navbar-link a {
   text-decoration: none;
-  color: #333;
-  font-weight: 500;
+  color: black;
 }
 
-.navbar-start-item a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  padding: 1rem;
 
+.about-timings {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-timings .about {
+  width: 300px;
+}
+
+
+.timings-table {
+  border-collapse: collapse;
+  width: 300px;
+}
+
+.timings-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 320px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: none;
+  background: white;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.timings-table td {
+  border: none;
+  padding: 16px 20px;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.2s ease;
+}
+
+.timings-table tr:last-child td {
+  border-bottom: none;
+}
+
+.timings-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.timings-table tbody tr:hover {
+  background-color: #f0f8ff;
+  transition: all 0.2s ease;
+  transform: translateY(-1px);
 }
