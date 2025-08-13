@@ -23,7 +23,6 @@
   padding-right: 6rem;
   color: white;
   background-color: grey;
-
   clip-path: polygon(0 0, 100% 0, calc(100% - 80px) 100%, 0 100%);
 }
 
@@ -39,7 +38,6 @@
   width: 80%;
   display: flex;
   justify-content: space-between;
-  /* border: 1px solid red; */
   padding: 0;
 }
 
@@ -48,52 +46,3 @@
   color: black;
 }
 
-
-.about-timings {
-  display: flex;
-  justify-content: space-between;
-}
-
-.about-timings .about {
-  width: 300px;
-}
-
-
-.timings-table {
-  border-collapse: collapse;
-  width: 300px;
-}
-
-.timings-table {
-  border-collapse: separate;
-  border-spacing: 0;
-  width: 320px;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  border: none;
-  background: white;
-  font-size: 14px;
-  margin: 20px 0;
-}
-
-.timings-table td {
-  border: none;
-  padding: 16px 20px;
-  border-bottom: 1px solid #f0f0f0;
-  transition: background-color 0.2s ease;
-}
-
-.timings-table tr:last-child td {
-  border-bottom: none;
-}
-
-.timings-table tr:nth-child(even) {
-  background-color: #fafafa;
-}
-
-.timings-table tbody tr:hover {
-  background-color: #f0f8ff;
-  transition: all 0.2s ease;
-  transform: translateY(-1px);
-}
